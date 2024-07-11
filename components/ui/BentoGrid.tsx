@@ -110,9 +110,9 @@ export const BentoGridItem = ({
             {id === 2 && <GlobeDemo />}
 
             {id === 3 && (
-              <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+              <div className="flex gap-1 lg:gap-3 w-fit absolute -right-3 lg:-right-2 h-64 overflow-y-auto hide">
                 <div className="flex flex-col gap-3 lg:gap-5">
-                  {['React.js', 'Next.js', 'TypeScript', 'Express'].map((item) => (
+                  {['C', 'Next.js', 'VueJS', 'TypeScript', 'MERN', 'Java', 'Bootstrap' ].map((item) => (
                     <span key={item} className="py-2 lg:py4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                       {item}
                     </span>
@@ -122,7 +122,7 @@ export const BentoGridItem = ({
 
                 <div className="flex flex-col gap-3 lg:gap-8">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-                  {['VueJS', 'MongoDB', 'Laravel', 'Node.js'].map((item) => (
+                  {['Flutter', 'React Native', 'ASP.NET', 'Laravel', 'TailwindCSS', ].map((item) => (
                     <span key={item} className="py-2 lg:py4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                       {item}
                     </span>
@@ -130,8 +130,11 @@ export const BentoGridItem = ({
                   
                 </div>
 
+                
+
               </div>
             )}
+
 
             {id === 6 && (
               <div className="mt-5 relative">
