@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Techs used: React, Next.js, tailwindcss, Framer Motion, Aceternity UI, Next themes, React Icons, CSS Gradient
+Techs used: React, Next.js, tailwindcss, Framer Motion, Aceternity UI, Next themes, React Icons, CSS Gradient, Sentry
 ## Getting Started
 
 First, run the development server:
