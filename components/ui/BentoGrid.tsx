@@ -7,7 +7,7 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";;
 import Lottie from 'react-lottie';
 import MagicButton from "./MagicButton";
-import { IoCopyOutline } from "react-icons/io5";
+import { FaLocationArrow } from "react-icons/fa";
 
 export const BentoGrid = ({
   className,
@@ -97,11 +97,11 @@ export const BentoGridItem = ({
             <div className={cn(
               titleClassName, 'group-hover:bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'
             )}>
-              <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
+              <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base mt-9 max-w-xs break-words z-10">
                 {description}
               </div>
 
-              <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+              <div className="font-sans font-bold text-lg lg:text-2xl max-w-xs break-words z-10">
                 {title}
               </div>
 
@@ -142,21 +142,25 @@ export const BentoGridItem = ({
                   <Lottie options={{
                     loop: copied,
                     autoplay: copied,
-                    animationData,
+                    animationData,  
                     rendererSettings: {
                       preserveAspectRatio: 'xMidYMid slice',
                     }
                   }} />
                 </div>
-                <MagicButton 
-                  title={copied ? 'Email Copied' : 'Copy email'}
-                  icon={<IoCopyOutline />}
-                  position="left"
-                  otherClasses="!bg-[#161a31]"
-                  handleClick={handleCopy}
-                />  
+                <a href="https://resume-codoy.tiiny.site" target="_blank" rel="noopener noreferrer"                >
+                  <MagicButton 
+                    title="See My Resume"
+                    icon={<FaLocationArrow />}
+                    position="left"
+                    otherClasses="!bg-[#161a31]"
+                    handleClick={handleCopy}
+                  />  
+                </a>
               </div>
             )}
+
+           
         </div>
       </div>
     </div>

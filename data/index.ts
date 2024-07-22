@@ -7,12 +7,12 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
-      description: "",
+      title: "Today, I am committed to leveraging my expertise to develop impactful solutions and contribute to the ever-changing tech landscape.",
+      description: "I began my tech journey in 2020, captivated by the ever-evolving nature of technology and its ability to address and enhance our daily lives. My initial fascination with emerging trends and innovations soon turned into a deep passion as I immersed myself in learning and experimenting with new tools and technologies. From building my first projects to tackling complex challenges, this journey has fueled my drive to continuously expand my skills. ",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full",
-      titleClassName: "justify-end",
-      img: "/b1.svg",
+      imgClassName: "w-[380px] h-[600px] object-cover float-end",
+      titleClassName: "justify-start text-start ",
+      img: "/codoy.jpg",
       spareImg: "",
     },
     {
@@ -48,8 +48,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "With a background in Information Technology, I thrive on learning new technologies and applying them to real-world projects.",
+      description: "Constantly Evolving",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -58,7 +58,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Interested in learning more about my work?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -71,11 +71,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Gladiator Fitness Gym Management System",
-      des: "Easily handle gym memberships, track attendance, and more with this user-friendly system, providing a smooth experience for both staff and members",
-      img: "/gladiator.svg",
-      iconLists: ["/html.svg", "/css.svg", "/php.svg", "/mysql.svg", "js.svg", "/bootstrap.svg"],
-      link: "gladiator-gym.onlinewebshop.net",
+      title: "D.Drip",
+      des: "An e-commerce platform with an easy-to-use shoe inventory system. Shop, manage, and enjoy the best footwear collection effortlessly.",
+      img: "/drip.svg",
+      iconLists: ["/laravel.svg", "/composer.svg",  "/php.svg", "/mysql.svg", "/html.svg", "/css.svg", "/bootstrap.svg",],
+      link: "github.com/livingsneaky-art/D.DRIP_LARAVEL_MySQL",
     },
     {
       id: 2,
@@ -95,11 +95,11 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "D.Drip",
-      des: "",
-      img: "",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg", ],
-      link: "",
+      title: "Gladiator Fitness Gym Management System",
+      des: "Easily handle gym memberships, track attendance, and more with this user-friendly system, providing a smooth experience for both staff and members",
+      img: "/gladiator.svg",
+      iconLists: ["/html.svg", "/css.svg", "/php.svg", "/mysql.svg", "js.svg", "/bootstrap.svg"],
+      link: "gladiator-gym.onlinewebshop.net",
     },
   ];
 
@@ -134,9 +134,9 @@ export const navItems = [
       id: 4,
       title: "Event Booking",
       des: "Create and book events effortlessly with Event Booking, an app that lets you view details, add comments, and manage all your events in one place.",
-      img: "",
+      img: "/event.svg",
       iconLists:["/html.svg", "/css.svg", "/js.svg", "/php.svg", "/bootstrap.svg", "/git.svg"],
-      link: "",
+      link: "youtu.be/-4G4tcfiro8",
     },
     {
       id: 6,
@@ -208,29 +208,8 @@ export const navItems = [
   ];
   
   export const workExperience = [
-    // {
-    //   id: 1,
-    //   title: "Frontend Engineer Intern",
-    //   desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    //   className: "md:col-span-2",
-    //   thumbnail: "/exp1.svg",
-    // },
-    // {
-    //   id: 2,
-    //   title: "Mobile App Dev - JSM Tech",
-    //   desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    //   className: "md:col-span-2", // change to md:col-span-2
-    //   thumbnail: "/exp2.svg",
-    // },
-    // {
-    //   id: 3,
-    //   title: "Freelance App Dev Project",
-    //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    //   className: "md:col-span-2", // change to md:col-span-2
-    //   thumbnail: "/exp3.svg",
-    // },
     {
-      id: 4,
+      id: 1,
       title: "Frontend Development Team Lead",
       company: "Pixel8 Web Solutions & Consultancy Inc",
       desc: "Designed and developed diverse client websites, supervised team efforts, ensuring effective collaboration and timely project completion",
@@ -242,14 +221,17 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "/github.svg",
+      url: "https://github.com/arraayyy"
     },
     {
       id: 2,
       img: "/twit.svg",
+      url: "https://www.instagram.com/roeannkim/"
     },
     {
       id: 3,
       img: "/link.svg",
+      url: "https://www.linkedin.com/in/roe-ann-kim-codoy-a89a2b219/"
     },
   ];
