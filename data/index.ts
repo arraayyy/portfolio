@@ -12,7 +12,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-[380px] h-[600px] object-cover float-end",
       titleClassName: "justify-start text-start ",
-      img: "/codoy.jpg",
+      img: "/codoy.JPG",
       spareImg: "",
     },
     {
