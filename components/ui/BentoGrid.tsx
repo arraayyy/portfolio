@@ -112,25 +112,23 @@ export const BentoGridItem = ({
             {id === 3 && (
               <div className="flex gap-1 lg:gap-3 w-fit absolute -right-3 lg:-right-2 h-64 overflow-y-auto hide">
                 <div className="flex flex-col gap-3 lg:gap-5">
-                  {['C', 'Next.js', 'VueJS', 'TypeScript', 'MERN', 'Java', 'Bootstrap' ].map((item) => (
+                  {['Next.js', 'React Native', 'TypeScript', 'MERN', 'Java', 'Bootstrap', 'GraphQL', 'C' ].map((item) => (
                     <span key={item} className="py-2 lg:py4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                       {item}
                     </span>
                   ))}
-                  <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
+                  <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />  
                 </div>
 
                 <div className="flex flex-col gap-3 lg:gap-8">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-                  {['Flutter', 'React Native', 'ASP.NET', 'Laravel', 'TailwindCSS', ].map((item) => (
+                  {['Flutter', 'Power Platform', 'VueJS', 'ASP.NET', 'Laravel', 'TailwindCSS', 'WordPress', ].map((item) => (
                     <span key={item} className="py-2 lg:py4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                       {item}
                     </span>
                   ))}
-                  
                 </div>
 
-                
 
               </div>
             )}
@@ -144,7 +142,7 @@ export const BentoGridItem = ({
                     autoplay: copied,
                     animationData,  
                     rendererSettings: {
-                      preserveAspectRatio: 'xMidYMid slice',
+                    preserveAspectRatio: 'xMidYMid slice',
                     }
                   }} />
                 </div>

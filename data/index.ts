@@ -101,9 +101,8 @@ export const navItems = [
       iconLists: ["/html.svg", "/css.svg", "/php.svg", "/mysql.svg", "js.svg", "/bootstrap.svg"],
       link: "gladiator-gym.onlinewebshop.net",
     },
-  ];
+  ]
 
-  
 
   export const Personalprojects = [
     {
@@ -215,6 +214,24 @@ export const navItems = [
       desc: "Designed and developed diverse client websites, supervised team efforts, ensuring effective collaboration and timely project completion",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
+    },
+
+    {
+      id: 2,
+      title: "Power Platform Developer",
+      company: "iSourceOut",
+      desc: "Developed platform solutions by creating low-code applications and automations in Microsoft Power Apps, Power Automate, and WordPress enabling efficient business workflows",
+      className: "md:col-span-2",
+      thumbnail: "/exp2.svg",
+    },
+
+    {
+      id: 1,
+      title: "Software Developer",
+      company: "Touch-Fire Trading",
+      desc: "Developed user-focused interfaces, created a common chassis front-end library, and built API endpoints for advanced trading systems.",
+      className: "md:col-span-2",
+      thumbnail: "/exp1.svg",
     },
   ];
   

@@ -31,7 +31,7 @@ const Hero = () => {
           />
 
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-            Hi, I&apos;m Roe Ann Kim Codoy, a Fullstack Developer. I build web applications that bring ideas to life with intuitive and dynamic user interfaces.
+            Hi, I&apos;m Roe Ann Kim Codoy, a Fullstack and Platform Developer. I build web applications that bring ideas to life with intuitive and dynamic user interfaces.
           </p>
 
           <a href="#about">
